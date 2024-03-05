@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 @Test //(invocationCount =2)
-public class Grotechminds_Reg 
+public class Reg 
 
 {
 public void Grotechminds_App() throws InterruptedException
 {
 	ChromeDriver driver = new ChromeDriver();
-	driver.get("https://grotechminds.com/registration/");
+	driver.get("link");
 	driver.manage().window().maximize();
 	driver.navigate().refresh();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
